@@ -1,0 +1,17 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 9, 2023, 12:07:20 PM
+    Author     : SABAR MARTUA TAMBA
+*/
+
+.white.bg{
+    -fx-background-color: #fff;
+}
+
+.left-form{
+    -fx-background-color: linear-gradient(to bottom right, #15abd0, #15abd0);
+}
+

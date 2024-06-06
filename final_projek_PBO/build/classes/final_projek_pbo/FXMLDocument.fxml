@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="618.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="final_projek_pbo.FXMLDocumentController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane fx:id="leftLogin" layoutY="-4.0" prefHeight="455.0" prefWidth="309.0" stylesheets="@loginDesign.css">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="80.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@hotel.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="30.0" layoutY="220.0" text="Wellcome to Our Hotel" textFill="#4187dd">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="309.0" prefHeight="451.0" prefWidth="309.0">
+               <children>
+                  <Label layoutX="105.0" layoutY="118.0" text="Login" textFill="#4187dd">
+                     <font>
+                        <Font name="Tahoma Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="fieldUsername" layoutX="55.0" layoutY="211.0" prefHeight="30.0" prefWidth="200.0" promptText="Username.." />
+                  <PasswordField fx:id="fieldPassword" layoutX="55.0" layoutY="260.0" prefHeight="30.0" prefWidth="200.0" promptText="Password.." />
+                  <Button fx:id="LoginButton" layoutX="129.0" layoutY="309.0" mnemonicParsing="false" onAction="#login" text="Login" />
+                  <ImageView fitHeight="84.0" fitWidth="94.0" layoutX="110.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@user.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
